@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+ int i,n;    
+ char inputString[100];
+ scanf("%[^\n]s",&inputString);
+ n=strlen(inputString);
+ printf("Hello, World\n");
+ for(i=0;i<n;i++)
+ {
+      printf("%c",inputString[i]);
+ }
+ return 0;
+}
