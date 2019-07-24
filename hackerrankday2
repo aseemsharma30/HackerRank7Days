@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float mealCost,tip,tax,tipPercent,taxPercent;
+    int totalCost;
+    scanf("%f %f %f",&mealCost,&tipPercent,&taxPercent);
+    tip=mealCost*(tipPercent/100);
+    tax=mealCost*(taxPercent/100);
+    totalCost=mealCost+tip+tax;
+    totalCost=((totalCost)/1);
+    printf("%d",totalCost);
+    return 0;
+}
