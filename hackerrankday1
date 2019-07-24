@@ -1,0 +1,11 @@
+int sum,n;
+    double q,m; 
+    char str[100];
+    scanf("%d %lf %[^\n]%*c",&n,&m,str);
+    sum=i+n;
+    printf("%d\n",sum);
+    q=d+m;
+    printf("%.1lf\n",q);
+    printf("%s",s);
+    fflush(stdin);
+    printf("%s", str);
