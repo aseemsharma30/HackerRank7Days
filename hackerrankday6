@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() 
+{
+    int i,n,m,j,k,l;
+    char a[10000];
+    scanf("%d",&m);
+    if(m<=10)
+    {
+        for(k=1;k<=m;k++)
+        {
+            scanf("%s",&a);
+            n=strlen(a);
+            n=strlen(a);
+            for(i=0;i<n;i=i+2)
+            {
+                printf("%c",a[i]);
+            }
+            printf(" ");
+            for(i=1;i<n;)
+            {
+                printf("%c",a[i]);
+                i=i+2;
+            }
+            printf("\n");
+        }
+    }  
+    else {
+    printf("input wrong");
+    }
+    
+    
+    return 0;
+}
